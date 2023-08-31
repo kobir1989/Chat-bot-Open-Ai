@@ -11,8 +11,6 @@ const configuration = new Configuration({
 
 const openai = new OpenAIApi(configuration)
 
-export default openai
-
 async function main() {
   console.log(colors.bold.green('Welcome to the Chatbot Program!'))
   console.log(colors.bold.green('You can start chatting with the bot.'))
