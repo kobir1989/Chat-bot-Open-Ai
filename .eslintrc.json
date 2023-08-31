@@ -1,11 +1,15 @@
 {
+  "root": true,
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module"
+  },
   "env": {
     "browser": true,
     "node": true
   },
-  "parserOptions": {
-    "ecmaVersion": "latest"
-  },
+
   "extends": ["prettier", "eslint:recommended"],
   "plugins": ["prettier"],
 
